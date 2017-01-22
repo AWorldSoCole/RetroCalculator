@@ -13,6 +13,10 @@
 		EEE7055B1E34666D00612CCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEE7055A1E34666D00612CCB /* Assets.xcassets */; };
 		EEE7055E1E34666D00612CCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EEE7055C1E34666D00612CCB /* LaunchScreen.storyboard */; };
 		EEE705691E34666D00612CCB /* RetroCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEE705681E34666D00612CCB /* RetroCalculatorTests.swift */; };
+		EEE705741E347BE900612CCB /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEE705731E347BE900612CCB /* Minecraft.ttf */; };
+		EEE705751E347BE900612CCB /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEE705731E347BE900612CCB /* Minecraft.ttf */; };
+		EEE705771E347CC300612CCB /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE705761E347CC300612CCB /* btn.wav */; };
+		EEE705781E347CC300612CCB /* btn.wav in Resources */ = {isa = PBXBuildFile; fileRef = EEE705761E347CC300612CCB /* btn.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,8 @@
 		EEE705641E34666D00612CCB /* RetroCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RetroCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEE705681E34666D00612CCB /* RetroCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroCalculatorTests.swift; sourceTree = "<group>"; };
 		EEE7056A1E34666D00612CCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EEE705731E347BE900612CCB /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		EEE705761E347CC300612CCB /* btn.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = btn.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +83,8 @@
 		EEE705521E34666D00612CCB /* RetroCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				EEE705761E347CC300612CCB /* btn.wav */,
+				EEE705731E347BE900612CCB /* Minecraft.ttf */,
 				EEE705531E34666D00612CCB /* AppDelegate.swift */,
 				EEE705551E34666D00612CCB /* ViewController.swift */,
 				EEE705571E34666D00612CCB /* Main.storyboard */,
@@ -181,8 +189,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE705771E347CC300612CCB /* btn.wav in Resources */,
 				EEE7055E1E34666D00612CCB /* LaunchScreen.storyboard in Resources */,
 				EEE7055B1E34666D00612CCB /* Assets.xcassets in Resources */,
+				EEE705741E347BE900612CCB /* Minecraft.ttf in Resources */,
 				EEE705591E34666D00612CCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -191,6 +201,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EEE705751E347BE900612CCB /* Minecraft.ttf in Resources */,
+				EEE705781E347CC300612CCB /* btn.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
